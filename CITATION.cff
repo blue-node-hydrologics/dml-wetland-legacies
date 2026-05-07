@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying paper."
+title: "dml-wetland-legacies: Analysis code for 'Drained Prairie Pothole Wetlands Provide Blueprints for Restoration in the US Corn Belt'"
+authors:
+  - family-names: Van Meter
+    given-names: Kimberly J.
+    email: vanmeterlab@gmail.com
+    affiliation: "Department of Geography and Earth and Environmental Sciences Institute, Pennsylvania State University, University Park, PA"
+  - family-names: Basu
+    given-names: Nandita B.
+    affiliation: "Department of Earth and Environmental Sciences and Department of Civil and Environmental Engineering, University of Waterloo, Waterloo, Ontario"
+  - family-names: Scharton
+    given-names: D.
+    affiliation: "Department of Environmental Systems, University of California, Merced, Merced, California"
+repository-code: "https://github.com/blue-node-hydrologics/dml-wetland-legacies"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Drained Prairie Pothole Wetlands Provide Blueprints for Restoration in the US Corn Belt"
+  authors:
+    - family-names: Van Meter
+      given-names: Kimberly J.
+      affiliation: "Pennsylvania State University"
+    - family-names: Basu
+      given-names: Nandita B.
+      affiliation: "University of Waterloo"
+    - family-names: Scharton
+      given-names: D.
+      affiliation: "University of California, Merced"
+  year: 2026
+  journal: "Nature Sustainability"
+  status: "advance-online"

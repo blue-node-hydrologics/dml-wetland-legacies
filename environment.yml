@@ -1,0 +1,46 @@
+name: dml-legacy-wetlands
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+
+  # Core scientific stack
+  - numpy
+  - pandas
+  - scipy
+  - statsmodels
+  - matplotlib
+  - seaborn
+  - scikit-image
+  - pillow
+  - opencv
+  - tqdm
+  - requests
+  - ipython
+  - jupyterlab
+
+  # Geospatial stack (paper's named libraries first)
+  - rasterio
+  - gdal
+  - geopandas
+  - shapely>=2.0
+  - fiona
+  - pyproj
+  - affine
+  - pyogrio           # fast geopandas I/O engine
+  - contextily
+
+  # Spatial statistics
+  - libpysal
+  - esda
+
+  # STAC / Microsoft Planetary Computer (Landsat ARD retrieval)
+  - pystac-client
+  - planetary-computer
+  - tenacity             # retry/backoff for STAC downloads
+
+  # Misc
+  - dbfread
+
+  # Pip-only fallback (none required at present)
+  - pip

@@ -1,0 +1,75 @@
+# macOS / Windows / Linux junk
+.DS_Store
+Thumbs.db
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+.virtual_documents/
+*.nbconvert.ipynb
+
+# Anaconda Project metadata
+anaconda_projects/
+
+# Python build/cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Data — repository ships code only.
+# Inputs (NWI shapefiles, Landsat ARD scenes, NASS yields, CDL crop layers,
+# DEM tiles, etc.) and intermediate outputs (NDVI mosaics, crop masks, zonal
+# stats) should live OUTSIDE the repo. Edit notebooks to point at your local
+# paths. The conventions below are starting points — extend as needed.
+data/
+inputs/
+outputs/
+results/
+portal_data/
+*.tif
+*.tiff
+*.vrt
+*.npy
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.qix
+*.sbn
+*.sbx
+*.geojson
+*.parquet
+
+# CSV/Excel outputs (uncomment if you want to commit small reference tables)
+*.csv
+*.xlsx
+!docs/**/*.csv
+
+# Large rendered figures embedded in notebooks should stay in the notebooks;
+# loose figure exports do not need to be tracked.
+figures/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+!docs/**/*.png
+
+# Secrets / credentials (Planetary Computer SAS tokens, API keys)
+.env
+*.env
+.netrc
+secrets/
+*.key
+*.pem

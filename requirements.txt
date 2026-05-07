@@ -1,0 +1,40 @@
+# Pip fallback for users who prefer pip over conda.
+# Note: rasterio, GDAL, geopandas, fiona, and pyproj are easier to install via
+# conda-forge (see environment.yml). Install GDAL system libraries first if
+# using pip on macOS/Linux.
+
+# Core scientific stack
+numpy
+pandas
+scipy
+statsmodels
+matplotlib
+seaborn
+scikit-image
+pillow
+opencv-python
+tqdm
+requests
+ipython
+jupyterlab
+
+# Geospatial
+rasterio
+GDAL
+geopandas
+shapely
+fiona
+pyproj
+affine
+contextily
+
+# Spatial statistics
+libpysal
+esda
+
+# STAC / Planetary Computer
+pystac-client
+planetary-computer
+
+# Misc
+dbfread
